@@ -1,196 +1,193 @@
 @media (max-width: 360px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+  }
 
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        text-align: center;
-      }
-    
-    p {
-        padding: 0;
-        margin: 0;
-    }
-    
-    #wrap {
-        display: flex;
-        width: 100%;
-        justify-content: center;
-    }
+  p {
+    padding: 0;
+    margin: 0;
+  }
 
-    .container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+  #wrap {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
 
-    header {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 32px;
-        margin-top: 40px;
-    }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+    margin-top: 40px;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header p {
+    font-family: "tvN 즐거운이야기OTF";
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: #f5df4d;
+    width: 297px;
+    height: 24px;
+  }
+
+  header img {
+    width: 278px;
+    height: 130px;
+    margin-bottom: 32px;
+  }
+
+  .intro {
+    width: 330px;
+    height: 68px;
+    position: relative;
+    box-sizing: border-box;
+    margin-bottom: 60px;
+  }
+
+  .intro::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 20px;
+    height: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-size: contain;
+    background-image: url("../images/left-effect.svg");
+  }
+
+  .intro::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 20px;
+    height: 18px;
+    top: 50%;
+    background-size: contain;
+    transform: translateY(-50%);
+    background-image: url("../images/right-effect.svg");
+  }
+
+  .intro p {
+    font-family: G마켓 산스;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+  }
+
+  .title-bold {
+    font-family: G마켓 산스;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  /* 컨텐츠 영역 */
+
+  .contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+
+  .inline-container {
+    width: 319px;
+    height: 114px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contents p {
+    font-family: Gmarket Sans;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: white;
+  }
+
+  #field-1 {
+    width: 156px;
+    height: 38px;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    font-size: 16px;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+
+  #field-2 {
+    width: 156px;
+    height: 38px;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    font-size: 16px;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+
+  .inline-box1, .inline-box2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .inline-box1 {
+    margin-bottom: 12px;
+  }
+  #block-text {
+    margin-bottom: 12px;
+  }
 
 
-    main {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-      }
 
-    header p {
-        font-family: 'tvN 즐거운이야기OTF';
-        font-weight: 700;
-        font-size: 22px;
-        line-height: 100%;
-        letter-spacing: 0%;
-        text-align: center;
-        vertical-align: middle;
-        color: #F5DF4D;
-        width: 297px;
-        height: 24px;
-    }
+  #field-1::placeholder {
+    font-family: G마켓 산스;
+    font-weight: 400;
+    font-size: 14px;
+    color: #babcbe;
+    padding: 50.5px 12px;
+  }
 
-    header img {
-        width: 278px;
-        height: 130px;
-        margin-bottom: 32px;
-    }
-
-
-
-    .intro {
-        width: 330px;
-        height: 68px;
-        position: relative;
-        box-sizing: border-box;
-    }
-
-    .intro::before {
-        content: '';
-        position: absolute;
-        left: 0;
-        width: 20px;
-        height: 18px;
-        top: 50%;
-        transform: translateY(-50%); 
-        background-size: contain;
-        background-image: url('../images/left-effect.svg');
-    }
-    
-    .intro::after {
-        content: '';
-        position: absolute;
-        right:  0;
-        width: 20px;
-        height: 18px;
-        top: 50%; 
-        background-size: contain;
-        transform: translateY(-50%); 
-        background-image: url('../images/right-effect.svg');
-    }
-
-    .intro p {
-        font-family: G마켓 산스;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 100%;
-        letter-spacing: 0%;
-        text-align: center;
-        vertical-align: middle;
-        color: white;
-    }
-
-    .title-bold {
-        font-family: G마켓 산스;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 100%;
-        letter-spacing: 0%;
-        text-align: center;
-        vertical-align: middle;
-    }
-
-    /* 컨텐츠 영역 */
-
-    .contents {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .inline-container{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-
-    .contents p {
-        font-family: Gmarket Sans;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 100%;
-        letter-spacing: 0%;
-        vertical-align: middle;
-        color: white;
-    }
-
-    #field-1 {
-        width: 156px;
-        height: 38px;
-        border-radius: 8px;
-        color: white;
-        border: none;
-        font-size: 16px;
-        margin-left: 16px;
-        margin-right: 16px;
-    }
-
-    #field-2 {
-        width: 156px;
-        height: 38px;
-        border-radius: 8px;
-        color: white;
-        border: none;
-        font-size: 16px;
-        margin-left: 16px;
-        margin-right: 16px;
-    }
-
-    .inline-box1 {
-        display: flex;
-        flex-direction: row;
-       justify-content: center;
-       align-items: center;
-       margin-bottom: 12px;
-    }
-
-    .inline-box2 {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
-
-    #field-1::placeholder {
-        font-family: G마켓 산스;
-        font-weight: 400;
-        font-size: 14px;
-        color: #BABCBE;
-        padding: 50.5px 12px;
-        }
-
-        #field-2::placeholder {
-            font-family: G마켓 산스;
-            font-weight: 400;
-            font-size: 14px;
-            color: #BABCBE;
-            padding: 50.5px 12px;
-            }
-
-   
+  #field-2::placeholder {
+    font-family: G마켓 산스;
+    font-weight: 400;
+    font-size: 14px;
+    color: #babcbe;
+    padding: 50.5px 12px;
+  }
 }
