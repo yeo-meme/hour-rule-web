@@ -87,7 +87,7 @@ main {
 }
 
 .intro p {
-    font-family: Gmarket Sans;
+    font-family: G마켓 산스;
     font-weight: 400;
     font-size: 18px;
     line-height: 173%;
@@ -100,7 +100,7 @@ main {
 
 
 .title-bold {
-    font-family: Gmarket Sans;
+    font-family: G마켓 산스;
     font-weight: 700;
     font-size: 24px;
     line-height: 100%;
@@ -120,6 +120,7 @@ main {
    align-items: center;
    margin-bottom: 20px;
 }
+
 .inline-box2 {
     display: flex;
     flex-direction: row;
@@ -147,6 +148,23 @@ main {
     margin-left: 16px;
     margin-right: 16px;
 }
+
+#field-1::placeholder {
+font-family: G마켓 산스;
+font-weight: 400;
+font-size: 24px;
+color: #BABCBE;
+padding: 40px 16px;
+}
+
+#field-2::placeholder {
+    font-family: G마켓 산스;
+    font-weight: 400;
+    font-size: 24px;
+    color: #BABCBE;
+    /* padding: 40px 16px; */
+    }
+
 
 #field-2 {
     width: 228px;
@@ -179,6 +197,8 @@ main button {
     text-align: center;
     vertical-align: middle;
     color: #5B2386;
+
+    box-shadow: 2px 4px 10px #00000026;
 
 }
 
@@ -232,7 +252,7 @@ color: white;
     margin-right: 61px;
 }
 .result-container span {
-    font-family: G마켓 산스;
+    font-family: x;
 font-weight: 700;
 font-size: 72px;
 line-height: 100%;
