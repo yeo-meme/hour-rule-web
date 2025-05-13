@@ -126,6 +126,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 0;
   }
 
   .contents p {
@@ -212,10 +213,13 @@
 
   .button-container {
     margin-top: 80px;
+    padding-left: 56px;
     display: flex; /* Flex 컨테이너로 설정 */
     flex-direction: row;
     margin-bottom: 68px;
+    justify-content: center;
   }
+
 
   .how-train-button {
     width: 240px;
