@@ -216,7 +216,7 @@
     padding-left: 56px;
     display: flex; /* Flex 컨테이너로 설정 */
     flex-direction: row;
-    margin-bottom: 68px;
+    margin-bottom: 28px;
     justify-content: center;
   }
 
