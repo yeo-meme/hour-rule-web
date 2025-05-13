@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'tvN Enjoystories';   
+    src: url('경로/폰트파일.woff2') format('woff2'),  
+         url('경로/폰트파일.woff') format('woff'),
+         url('경로/폰트파일.ttf') format('truetype');  
+    font-weight: 700;
+    font-style: normal;
+  }
