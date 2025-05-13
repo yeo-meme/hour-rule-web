@@ -9,6 +9,11 @@
     text-align: center;
   }
 
+p{
+    padding: 0;
+    margin: 0;
+}
+
 body {
     background-color: #5B2386;
 }
@@ -160,11 +165,8 @@ main {
 }
 
 
-.contents button {
-    width: 567px;
-    height: 64px;
-    border-radius: 12px;
-    padding: 20px 50px;
+/* .contents button { */
+main button {
     background: #FCEE21;
     box-sizing: border-box;
     border: none;
@@ -180,6 +182,15 @@ main {
 
 }
 
+.how-train-button{
+    width: 567px;
+    height: 64px;
+    border-radius: 12px;
+    padding: 20px 50px;
+}
+
+
+
 .button-container {
     margin-top: 120px;
     display: flex; /* Flex 컨테이너로 설정 */
@@ -192,4 +203,100 @@ main {
 .point-icon {
     margin-left: 7px; /* 왼쪽 여백 7px */
     margin-top: 14px;
+}
+
+/* 결과 컨테이너 */
+
+.result-container {
+    width: 663px;
+    height: 164px;
+}
+
+
+.result-container p {
+    font-family: G마켓 산스;
+font-weight: 400;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+vertical-align: middle;
+color: white;
+}
+
+.result-linebox1 {
+    margin-bottom: 20px;
+}
+
+.result-linebox2 {
+    margin-left: 61px;
+    margin-right: 61px;
+}
+.result-container span {
+    font-family: G마켓 산스;
+font-weight: 700;
+font-size: 72px;
+line-height: 100%;
+letter-spacing: 0%;
+vertical-align: middle;
+color: white;
+margin-left: 12px;
+margin-right: 12px;
+}
+
+/* 훈련버튼 */
+
+.nav-container {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+/*main button상속*/
+.go-button-icon{
+    width: 365px;
+    height: 64px;
+    border-radius: 12px;
+    padding: 20px 50px;
+}
+.share-button-icon {
+    width: 193px;
+    height: 64px;
+    border-radius: 12px;
+    padding: 20px 50px;
+    background: white;
+    margin-left: 12px;
+}
+
+
+/* footer */
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+    margin-bottom: 106px;
+}
+.footer-container {
+    width: 365px;
+    height: 84px;
+
+}
+
+.footer-container img {
+    margin-bottom: 20px;
+}
+
+.footer-container p {
+    font-family: Noto Sans KR;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
 }
