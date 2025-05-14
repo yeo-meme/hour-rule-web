@@ -15,11 +15,7 @@
     <link rel="stylesheet" href="./css/modal.css" />
   </head>
   <body>
-    <script>
-      // 모달 열기 함수
-  
-
-    </script>
+    
 
     <div id="wrap">
       <div class="container">
@@ -82,7 +78,9 @@
               </div>
               <div class="training-btn-container">
                 <img src="./images/licat-img.png" alt="" />
-                <button class="modal-go-button">종료하고 진짜 훈련하러 가기 GO!GO!</button>
+                <button class="modal-go-button">
+                  종료하고 진짜 훈련하러 가기 GO!GO!
+                </button>
               </div>
             </div>
           </section>
@@ -99,37 +97,11 @@
 
           <!--이동버튼-->
           <nav aria-label="페이지 내 링크" class="nav-container">
-            <button class="go-button-icon" onclick="openModal('basicModal')">
+            <button class="go-button-icon" onclick="openNewWindow('new-window.html', 'basicWindow')">
               훈련하러 가기 GO! GO!
             </button>
             <button class="share-button-icon">공유하기</button>
           </nav>
-          <!-- 기본 모달 -->
-          <div id="basicModal" class="modal-overlay">
-            <div class="modal">
-              <button class="close-btn" onclick="closeModal('basicModal')">
-                &times;
-              </button>
-              <h2>기본 모달 창</h2>
-              <p>
-                이것은 기본적인 모달 창입니다. 버튼을 클릭하여 모달을 열고 닫을
-                수 있습니다.
-              </p>
-              <p>
-                모달 창은 페이지 위에 오버레이되어 표시되며, 백그라운드는 어둡게
-                처리됩니다.
-              </p>
-              <div class="modal-footer">
-                <button
-                  class="modal-btn secondary"
-                  onclick="closeModal('basicModal')"
-                >
-                  닫기
-                </button>
-                <button class="modal-btn primary">확인</button>
-              </div>
-            </div>
-          </div>
         </main>
 
         <!--하단-->
@@ -144,8 +116,25 @@
               수정 및 재배포, 무단 도용 시 법적인 문제가 발생할 수 있습니다.
             </p>
           </div>
+          <!--히든테스트-->
+          <div id="hidden-content">
+            <h2>숨겨진 콘텐츠</h2>
+            <p>이 내용이 새 창에 나타납니다.</p>
+          </div>
         </footer>
       </div>
     </div>
+    <pre><code>
+    function openNewWindow(url, name) {
+      window.open(url, name);
+  }
+</code></pre>
+
+  <!-- ✅ 여기에 script 배치 -->
+  <script>
+    function openNewWindow(url, name) {
+        window.open(url, name);
+    }
+  </script>
   </body>
 </html>
