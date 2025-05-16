@@ -14,6 +14,7 @@ body {
   background-color: #5b2386;
 }
 
+@media (min-width: 767px) and (max-width: 1920px) {
 #wrap {
   display: flex;
   width: 100%;
@@ -305,4 +306,5 @@ footer {
 .footer-wrap {
   width: 348px;
   height: 28px;
+}
 }

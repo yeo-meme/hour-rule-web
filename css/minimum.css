@@ -1,4 +1,4 @@
-@media (max-width: 360px) {
+@media (max-width: 767px) {
   * {
     margin: 0;
     padding: 0;
@@ -126,6 +126,7 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 0;
+
   }
 
   .contents p {
@@ -160,6 +161,12 @@
   .inline-box1,
   #block-text {
     margin-bottom: 12px;
+  }
+
+  #block-text {
+    position: relative;
+    left: 50%;       
+    transform: translateX(-50%);  
   }
 
   #field-1::placeholder,
