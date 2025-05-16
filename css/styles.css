@@ -100,7 +100,16 @@ main {
   line-height: 100%;
   letter-spacing: 0%;
   text-align: center;
+
   vertical-align: middle;
+
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.particle {
+  position: relative;
+  bottom: -0.2em; 
 }
 
 /* 컨텐츠 영역 */
@@ -156,7 +165,6 @@ main {
   /* padding: 40px 16px; */
   
 }
-
 
 
 .inline-container {
