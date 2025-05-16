@@ -124,6 +124,7 @@ main {
   font-family: G마켓 산스;
   font-weight: 400;
   font-size: 24px;
+
   line-height: 100%;
   letter-spacing: 0%;
   vertical-align: middle;
@@ -136,37 +137,43 @@ main {
   border-radius: 8px;
   color: white;
   border: none;
-  font-size: 16px;
+  
   margin-left: 16px;
   margin-right: 16px;
-}
-
-#field-1::placeholder {
-  font-family: G마켓 산스;
-  font-weight: 400;
-  font-size: 24px;
-  color: #babcbe;
-  /* padding: 40px 16px; */
-}
-
-#field-2::placeholder {
-  font-family: G마켓 산스;
-  font-weight: 400;
-  font-size: 24px;
-  color: #babcbe;
-  /* padding: 40px 16px; */
 }
 
 #field-2 {
   width: 228px;
   height: 56px;
   border: none;
+
+
   border-radius: 8px;
   color: white;
-  font-size: 16px;
+
   margin-left: 16px;
   margin-right: 16px;
 }
+
+#field-1::placeholder {
+  font-family: G마켓 산스;
+  font-weight: 300;
+  font-size: 24px;
+
+  color: #babcbe;
+  /* padding: 40px 16px; */
+}
+
+#field-2::placeholder {
+  font-family: G마켓 산스;
+  font-weight: 300;
+  font-size: 24px;
+  color: #babcbe;
+
+  /* padding: 40px 16px; */
+}
+
+
 
 .inline-container {
   margin-bottom: 120px;
@@ -284,6 +291,7 @@ footer {
 .footer-container {
   width: 365px;
   height: 84px;
+
 }
 
 .footer-container img {
@@ -292,11 +300,17 @@ footer {
 
 .footer-container p {
   font-family: Noto Sans KR;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 12px;
-  line-height: 100%;
+  line-height: 130%;
   letter-spacing: 0%;
   text-align: center;
   vertical-align: middle;
   color: white;
+}
+
+.footer-wrap {
+  width: 348px;
+  height: 28px;
+
 }
