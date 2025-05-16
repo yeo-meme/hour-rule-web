@@ -137,7 +137,8 @@ main {
   border-radius: 8px;
   color: white;
   border: none;
-  
+  box-sizing: border-box;
+
   margin-left: 16px;
   margin-right: 16px;
 }
@@ -146,7 +147,7 @@ main {
   width: 228px;
   height: 56px;
   border: none;
-
+  box-sizing: border-box;
 
   border-radius: 8px;
   color: white;
@@ -157,8 +158,9 @@ main {
 
 #field-1::placeholder {
   font-family: G마켓 산스;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 24px;
+  line-height: 56px;
 
   color: #babcbe;
   /* padding: 40px 16px; */
@@ -166,14 +168,12 @@ main {
 
 #field-2::placeholder {
   font-family: G마켓 산스;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 24px;
   color: #babcbe;
-
+  line-height: 56px;
   /* padding: 40px 16px; */
 }
-
-
 
 .inline-container {
   margin-bottom: 120px;
@@ -291,7 +291,6 @@ footer {
 .footer-container {
   width: 365px;
   height: 84px;
-
 }
 
 .footer-container img {
@@ -312,5 +311,4 @@ footer {
 .footer-wrap {
   width: 348px;
   height: 28px;
-
 }

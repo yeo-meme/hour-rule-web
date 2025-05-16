@@ -1,5 +1,3 @@
-
-
 .modal-overlay {
   width: 800px;
   height: 816px;
@@ -30,7 +28,6 @@
   align-items: center;
 
   margin-bottom: 40px;
-
 }
 
 .modal-container p {
@@ -44,7 +41,6 @@
   text-align: center;
   vertical-align: middle;
   color: #5b2386;
-  
 }
 
 #explain-tx {
@@ -60,28 +56,22 @@
   color: #5b2386;
 }
 
-
 /* 모달 버튼 컨테이너 */
 
 .training-btn-container {
-    width: 508px;
-    height: 466px;
+  width: 508px;
+  height: 466px;
 }
 
 .modal-go-button {
+  background: #fcee21;
+  box-sizing: border-box;
+  border: none;
+  width: 508px;
+  height: 64px;
+  border-radius: 12px;
 
-    background: #fcee21;
-    box-sizing: border-box;
-    border: none;
-    width: 508px;
-    height: 64px;
-    border-radius: 12px;
- 
+  margin-top: 60px;
 
-    margin-top: 60px;
-
-    box-shadow: 2px 4px 10px #00000026;
-
-    
+  box-shadow: 2px 4px 10px #00000026;
 }
-

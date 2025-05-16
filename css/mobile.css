@@ -64,7 +64,6 @@
     position: relative;
     box-sizing: border-box;
     margin-bottom: 60px;
-   
   }
 
   .intro::before {
@@ -92,8 +91,6 @@
   }
 
   .intro p {
-   
-
     font-family: G마켓 산스;
     font-weight: 400;
     font-size: 14px;
@@ -102,7 +99,6 @@
     text-align: center;
     vertical-align: middle;
     color: white;
-
   }
 
   .title-bold {
@@ -121,7 +117,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-  
   }
 
   .inline-container {
@@ -165,20 +160,19 @@
     margin-right: 8px;
   }
 
-  .inline-box1, .inline-box2 {
+  .inline-box1,
+  .inline-box2 {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
   }
-  
+
   .inline-box1 {
     margin-bottom: 12px;
   }
   #block-text {
     margin-bottom: 12px;
   }
-
-
 
   #field-1::placeholder {
     font-family: G마켓 산스;
@@ -202,7 +196,7 @@
     background: #fcee21;
     box-sizing: border-box;
     border: none;
-  
+
     font-family: G마켓 산스;
     font-weight: 500;
     font-size: 14px;
@@ -211,7 +205,7 @@
     text-align: center;
     vertical-align: middle;
     color: #5b2386;
-  
+
     box-shadow: 2px 4px 10px #00000026;
   }
 
@@ -224,14 +218,11 @@
     justify-content: center;
   }
 
-
   .how-train-button {
     width: 240px;
     height: 72px;
     border-radius: 12px;
     padding: 20px 38px;
-
-   
   }
 
   .how-train-button-tx {
@@ -245,14 +236,12 @@
 
     width: 164px;
     height: 32px;
-
   }
 
   .point-icon {
     margin-left: 0px; /* 왼쪽 여백 7px */
     margin-top: 40px;
   }
-
 
   /* 결과 컨테이너 */
   .result-container {
@@ -282,11 +271,10 @@
     margin-right: 12px;
   }
 
-
-.result-linebox1 {
+  .result-linebox1 {
     margin-bottom: 16px;
   }
-  
+
   .result-linebox2 {
     margin-left: 15.5px;
     margin-right: 15.5px;
@@ -301,7 +289,7 @@
   }
 
   /*main button상속*/
-.go-button-icon {
+  .go-button-icon {
     width: 203px;
     height: 46px;
     margin-left: 24px;
@@ -315,7 +303,6 @@
     letter-spacing: 0%;
     text-align: center;
     vertical-align: middle;
-
   }
 
   .share-button-icon {
@@ -338,7 +325,6 @@
 
   /* footer */
   footer {
-  
     margin-top: 60px;
     margin-bottom: 48px;
   }
@@ -359,13 +345,12 @@
 
   .footer-container p {
     font-family: Noto Sans KR;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 9px;
-    line-height: 100%;
+    line-height: 120%;
     letter-spacing: 0%;
     text-align: center;
     vertical-align: middle;
     color: white;
   }
-
 }
