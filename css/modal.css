@@ -64,6 +64,8 @@
 }
 
 .modal-go-button {
+  cursor: pointer;
+  
   background: #fcee21;
   box-sizing: border-box;
   border: none;

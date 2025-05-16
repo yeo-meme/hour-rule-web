@@ -184,6 +184,7 @@
   /* 버튼 컨테이너 */
 
   main button {
+    cursor: pointer;
     background: #fcee21;
     box-sizing: border-box;
     border: none;
@@ -201,6 +202,8 @@
   }
 
   .button-container {
+    cursor: pointer;
+
     margin-top: 80px;
     padding-left: 56px;
     display: flex; /* Flex 컨테이너로 설정 */
@@ -210,6 +213,8 @@
   }
 
   .how-train-button {
+    cursor: pointer;
+
     width: 240px;
     height: 72px;
     border-radius: 12px;
@@ -217,6 +222,8 @@
   }
 
   .how-train-button-tx {
+    cursor: pointer;
+
     font-family: GmarketSans;
     font-weight: 700;
     font-size: 14px;
@@ -281,6 +288,8 @@
 
   /*main button상속*/
   .go-button-icon {
+    cursor: pointer;
+
     width: 203px;
     height: 46px;
     margin-left: 24px;
@@ -297,6 +306,8 @@
   }
 
   .share-button-icon {
+    cursor: pointer;
+    
     width: 102px;
     height: 46px;
     border-radius: 12px;

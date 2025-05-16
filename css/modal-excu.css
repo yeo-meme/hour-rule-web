@@ -76,6 +76,8 @@
   }
   
   .modal-go-button {
+    cursor: pointer;
+    
     font-family: GmarketSans;
     background: #fcee21;
     box-sizing: border-box;

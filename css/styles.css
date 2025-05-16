@@ -199,6 +199,8 @@ main {
 
 /* .contents button { */
 main button {
+  cursor: pointer;
+
   background: #fcee21;
   box-sizing: border-box;
   border: none;
@@ -216,6 +218,8 @@ main button {
 }
 
 .how-train-button {
+  cursor: pointer;
+
   width: 567px;
   height: 64px;
   border-radius: 12px;
@@ -223,6 +227,8 @@ main button {
 }
 
 .button-container {
+  cursor: pointer;
+
   margin-top: 120px;
   display: flex; /* Flex 컨테이너로 설정 */
   flex-direction: row;
@@ -283,12 +289,16 @@ main button {
 
 /*main button상속*/
 .go-button-icon {
+  cursor: pointer;
+
   width: 365px;
   height: 64px;
   border-radius: 12px;
   padding: 20px 50px;
 }
 .share-button-icon {
+  cursor: pointer;
+  
   width: 193px;
   height: 64px;
   border-radius: 12px;
