@@ -38,6 +38,7 @@
           <!--계산입력-->
           <section class="contents">
             <div class="inline-container">
+              <div class="fire-input">
               <div class="inline-box1">
                 <p>나는</p>
                 <input
@@ -49,7 +50,9 @@
                   placeholder="예)프로그래밍"
                   aria-label="전문으로 하고 싶은 프로그래밍 분야를 입력하세요"
                 />
+                <div class="firework" id="firework"></div>
                 <p>전문가가 될 것이다.</p>
+              
               </div>
               <div class="inline-box2">
                 <p id="block-text">그래서 앞으로 매일 하루에</p>
@@ -64,6 +67,7 @@
                 />
                 <p>시간씩 훈련할 것이다.</p>
               </div>
+            </div>
             </div>
             <div class="button-container">
               <button class="how-train-button">
@@ -151,6 +155,27 @@
           `width=${width},height=${height},left=${left},top=${top},resizable=no`
         );
       }
+
+
+  const input = document.getElementById('field-1');
+  const input_second = document.getElementById('field-2');
+  const firework = document.getElementById('firework');
+
+  input.addEventListener('focus', () => {
+    firework.style.animation = 'explode 0.6s ease';
+    // 재사용 위해 animation 초기화
+    setTimeout(() => {
+      firework.style.animation = 'none';
+    }, 600);
+  });
+
+  input_second.addEventListener('focus', () => {
+    firework.style.animation = 'explode 0.6s ease';
+    // 재사용 위해 animation 초기화
+    setTimeout(() => {
+      firework.style.animation = 'none';
+    }, 600);
+  });
     </script>
   </body>
 </html>

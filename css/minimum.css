@@ -377,4 +377,45 @@
     transform: rotate(0deg);
   }
 } 
+
+.fire-input {
+  position: relative;
+  display: inline-block;
+}
+
+.firework {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: red;
+  opacity: 0;
+  transform: scale(0);
+  pointer-events: none;
+}
+
+/* 폭죽 효과 (scale + fade + color burst) */
+@keyframes explode {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+    background: red;
+  }
+  25% {
+    transform: scale(2);
+    background: yellow;
+  }
+  50% {
+    transform: scale(3);
+    background: orange;
+  }
+  100% {
+    transform: scale(0);
+    opacity: 0;
+    background: transparent;
+  }
+}
+
 }
