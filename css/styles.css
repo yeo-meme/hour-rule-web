@@ -162,6 +162,10 @@ main {
 
   text-align: center;
   color: #babcbe;
+
+  /* 플레이스홀더내 가운데 정렬 */
+  position: relative;
+  bottom: -0.1em; 
   /* padding: 40px 16px; */
   
 }
