@@ -131,49 +131,33 @@ main {
   color: white;
 }
 
-#field-1 {
+#field-1,#field-2 {
   width: 228px;
   height: 56px;
   border-radius: 8px;
   color: white;
   border: none;
+
   box-sizing: border-box;
 
   margin-left: 16px;
   margin-right: 16px;
 }
 
-#field-2 {
-  width: 228px;
-  height: 56px;
-  border: none;
-  box-sizing: border-box;
 
-  border-radius: 8px;
-  color: white;
-
-  margin-left: 16px;
-  margin-right: 16px;
-}
-
-#field-1::placeholder {
+#field-1::placeholder,#field-2::placeholder  {
   font-family: G마켓 산스;
   font-weight: 400;
   font-size: 24px;
   line-height: 56px;
 
+  text-align: center;
   color: #babcbe;
   /* padding: 40px 16px; */
+  
 }
 
-#field-2::placeholder {
-  font-family: G마켓 산스;
-  font-weight: 400;
-  font-size: 24px;
-  color: #babcbe;
-  line-height: 56px;
-  /* padding: 40px 16px; */
-}
+
 
 .inline-container {
   margin-bottom: 120px;
