@@ -1,1 +1,1 @@
-# hour-rule-web
+# 10,000-Hour Rule Web
