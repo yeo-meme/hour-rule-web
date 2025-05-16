@@ -138,17 +138,7 @@
     color: white;
   }
 
-  #field-1 {
-    width: 156px;
-    height: 38px;
-    border-radius: 8px;
-    color: white;
-    border: none;
-    font-size: 16px;
-    margin-left: 8px;
-    margin-right: 8px;
-  }
-
+  #field-1,
   #field-2 {
     width: 156px;
     height: 38px;
@@ -167,27 +157,21 @@
     align-items: center;
   }
 
-  .inline-box1 {
-    margin-bottom: 12px;
-  }
+  .inline-box1,
   #block-text {
     margin-bottom: 12px;
   }
 
-  #field-1::placeholder {
-    font-family: G마켓 산스;
-    font-weight: 400;
-    font-size: 14px;
-    color: #babcbe;
-    padding: 50.5px 12px;
-  }
-
+  #field-1::placeholder,
   #field-2::placeholder {
     font-family: G마켓 산스;
     font-weight: 400;
     font-size: 14px;
     color: #babcbe;
     padding: 50.5px 12px;
+
+    position: relative;
+    bottom: 0em;
   }
 
   /* 버튼 컨테이너 */
