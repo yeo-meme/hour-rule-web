@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.modal-overlay {
+    width: 800px;
+    height: 816px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+  
+  }
+  
+  .modal-container {
+    width: 508px;
+    height: 656px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 80px 146px 0 146px;
+
+  }
+  
+  .modal-title-container {
+    width: 396px;
+    height: 150px;
+    /* padding: 0 56px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  
+  .modal-title-container p {
+    font-family: tvNJoyfulStory;
+    font-weight: 700;
+    font-size: 96px;
+    width: 396px;
+    height: 106px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: #5b2386;
+  }
+  
+  #explain-tx {
+    font-family: tvNJoyfulStory;
+    font-weight: 700;
+    font-size: 36px;
+    width: 396px;
+    height: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: #5b2386;
+  }
+  
+  /* 모달 버튼 컨테이너 */
+  
+  .training-btn-container {
+    width: 508px;
+    height: 466px;
+
+  }
+
+  .training-btn-container img {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
+    margin-top: 40px;
+
+  }
+  
+  .modal-go-button {
+    font-family: GmarketSans;
+    background: #fcee21;
+    box-sizing: border-box;
+
+    font-weight: 700;
+    color: #5B2386;
+
+    font-size: 24px;
+    border: none;
+    width: 508px;
+    height: 64px;
+    border-radius: 12px;
+  
+    margin-top: 60px;
+  
+    box-shadow: 2px 4px 10px #00000026;
+  }
+  
