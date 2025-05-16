@@ -21,7 +21,7 @@ body {
 }
 
 header p {
-  font-family: "tvN 즐거운이야기OTF";
+  font-family: "tvNJoyfulStory";
   font-weight: 700;
   font-size: 36px;
   line-height: 100%;
@@ -83,7 +83,7 @@ main {
 }
 
 .intro p {
-  font-family: G마켓 산스;
+  font-family: GmarketSans;
   font-weight: 400;
   font-size: 18px;
   line-height: 173%;
@@ -94,7 +94,7 @@ main {
 }
 
 .title-bold {
-  font-family: G마켓 산스;
+  font-family: GmarketSans;
   font-weight: 700;
   font-size: 24px;
   line-height: 100%;
@@ -109,7 +109,7 @@ main {
 
 .particle {
   position: relative;
-  bottom: -0.2em; 
+  bottom: -0.2em;
 }
 
 /* 컨텐츠 영역 */
@@ -130,7 +130,7 @@ main {
 }
 
 .contents p {
-  font-family: G마켓 산스;
+  font-family: GmarketSans;
   font-weight: 400;
   font-size: 24px;
 
@@ -140,7 +140,8 @@ main {
   color: white;
 }
 
-#field-1,#field-2 {
+#field-1,
+#field-2 {
   width: 228px;
   height: 56px;
   border-radius: 8px;
@@ -153,9 +154,9 @@ main {
   margin-right: 16px;
 }
 
-
-#field-1::placeholder,#field-2::placeholder  {
-  font-family: G마켓 산스;
+#field-1::placeholder,
+#field-2::placeholder {
+  font-family: GmarketSans;
   font-weight: 400;
   font-size: 24px;
   line-height: 56px;
@@ -165,11 +166,9 @@ main {
 
   /* 플레이스홀더내 가운데 정렬 */
   position: relative;
-  bottom: -0.1em; 
+  bottom: -0.1em;
   /* padding: 40px 16px; */
-  
 }
-
 
 .inline-container {
   margin-bottom: 120px;
@@ -181,7 +180,7 @@ main button {
   box-sizing: border-box;
   border: none;
 
-  font-family: G마켓 산스;
+  font-family: GmarketSans;
   font-weight: 700;
   font-size: 24px;
   line-height: 100%;
@@ -221,7 +220,7 @@ main button {
 }
 
 .result-container p {
-  font-family: G마켓 산스;
+  font-family: GmarketSans;
   font-weight: 400;
   font-size: 24px;
   line-height: 100%;

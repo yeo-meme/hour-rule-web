@@ -40,7 +40,7 @@
   }
 
   header p {
-    font-family: "tvN 즐거운이야기OTF";
+    font-family: "tvNJoyfulStory";
     font-weight: 700;
     font-size: 22px;
     line-height: 100%;
@@ -91,7 +91,7 @@
   }
 
   .intro p {
-    font-family: G마켓 산스;
+    font-family: GmarketSans;
     font-weight: 400;
     font-size: 14px;
     line-height: 180%;
@@ -102,7 +102,7 @@
   }
 
   .title-bold {
-    font-family: G마켓 산스;
+    font-family: GmarketSans;
     font-weight: 700;
     font-size: 14px;
     line-height: 100%;
@@ -164,7 +164,7 @@
 
   #field-1::placeholder,
   #field-2::placeholder {
-    font-family: G마켓 산스;
+    font-family: GmarketSans;
     font-weight: 400;
     font-size: 14px;
     color: #babcbe;
@@ -181,7 +181,7 @@
     box-sizing: border-box;
     border: none;
 
-    font-family: G마켓 산스;
+    font-family: GmarketSans;
     font-weight: 500;
     font-size: 14px;
     line-height: 100%;
@@ -210,7 +210,7 @@
   }
 
   .how-train-button-tx {
-    font-family: G마켓 산스;
+    font-family: GmarketSans;
     font-weight: 700;
     font-size: 14px;
     line-height: 130%;
@@ -234,7 +234,7 @@
   }
 
   .result-container p {
-    font-family: G마켓 산스;
+    font-family: GmarketSans;
     font-weight: 400;
     font-size: 12px;
     line-height: 100%;
