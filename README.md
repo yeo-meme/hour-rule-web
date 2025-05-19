@@ -13,8 +13,8 @@
 - CSS3
 
 ## 🛠 폴더 구조 (예시)
-*┣ 📜 index.html
-*┣ 📜 overlay.html
+* ┣ 📜 index.html
+* ┣ 📜 overlay.html
 *┣ 📂 images/
 *┣ 📂 css/
 *┃ ┗ 📜 style.css
